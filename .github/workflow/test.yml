@@ -6,3 +6,5 @@ jobs:
      steps:
        -name:Print string
         run:echo "Hello world"
+       -name:Setup Go environment
+        uses:actions/setup-go@3.5.0
